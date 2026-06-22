@@ -1,0 +1,12 @@
+var fruits1:Array<string>=["Apple","Orange","Banana"];
+fruits1.sort();
+console.log(fruits1);
+console.log(fruits1.pop());
+fruits1.push("Papaya");
+console.log(fruits1);
+fruits1 = fruits1.concat(['Fig','Mango']);
+console.log(fruits1);
+console.log(fruits1.indexOf("Papaya"));
+var fruits2:Array<number>=[7,3,6,2,5];
+fruits2.sort();
+console.log(fruits2);
