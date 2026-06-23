@@ -1,7 +1,4 @@
-import promptSync from "prompt-sync";
-
-const prompt = promptSync();
-let birth: number = Number(prompt("Enter your birth year: "));
-let current: number = new Date().getFullYear();
-let age: number = current - birth;
-console.log("Your age is: "+age+ "years");
+let date:Date=new Date("2005-06-27")
+let todayDate:Date=new Date()
+let years= todayDate.getFullYear()-date.getFullYear()
+console.log(years)

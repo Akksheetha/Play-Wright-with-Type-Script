@@ -1,6 +1,4 @@
-import promptSync from "prompt-sync";
-
-const prompt = promptSync();
-let inputRating: number = Number(prompt("Average Rating: "));
-let roundedRating: number = Math.round(inputRating);
-console.log("Rounded Rating: " + roundedRating);
+let r1:number=4.3
+let r2:number=9.8
+console.log(Math.round(r1))
+console.log(Math.round(r2))

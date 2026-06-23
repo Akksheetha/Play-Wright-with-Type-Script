@@ -1,6 +1,3 @@
-import promptSync from "prompt-sync";
-
-const prompt = promptSync();
-let score = Number(prompt("Game Score: "));
+let score:number=80
 let sscore = String(score);
 console.log("Your score is " + sscore + ".");

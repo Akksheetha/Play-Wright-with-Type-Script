@@ -1,6 +1,3 @@
-import PromptSync from "prompt-sync";
-
-const prompt = PromptSync();
-const num1 = Number(prompt("Enter a number : "));
-const num2 = Number(prompt("Enter a number : "));
-console.log("Solution is ",num1+num2);
+let num1:number=5
+let num2:number=3
+console.log("Sum of integer 1 and 2: ",num1+num2)
