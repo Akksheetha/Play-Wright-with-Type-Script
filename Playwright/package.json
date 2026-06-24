@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.0",
+    "@types/readline-sync": "^1.4.8",
+    "cross-env": "^10.1.0"
+  },
+  "scripts": {
+    "test:qa": "cross-env ENV=qa playwright test",
+    "test:uat": "cross-env ENV=uat playwright test",
+    "test:prod": "cross-env ENV=prod playwright test"
+  }
+}
