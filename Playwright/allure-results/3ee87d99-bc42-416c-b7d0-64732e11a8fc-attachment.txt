@@ -1,0 +1,3 @@
+Page title: Google
+Page HTML: <!DOCTYPE html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-IN"><head><meta charset="UTF-8"><meta content="origin" name="referrer"><link href="//www.gstatic.com/images/branding/searchlogo/ico/favicon.ico" rel="icon"><meta content="/images/branding/googleg/1x/googleg_standard_colo
+Current URL is  [Function: url]
