@@ -9,7 +9,7 @@ test('Test case 1 in Automation Testing',async({page})=>{
     const name = page.getByPlaceholder("Name");
     await name.fill("Akksh123");
     const mail = page.getByPlaceholder("Email Address");
-    mail.fill("aqwe@gmail.com");
+    mail.fill("akkshu@gmail.com");
     await page.getByRole('button', { name: 'Signup' }).click();
     await page.locator("#id_gender2").click();
     await page.locator("#password").fill("Pass@1234");
