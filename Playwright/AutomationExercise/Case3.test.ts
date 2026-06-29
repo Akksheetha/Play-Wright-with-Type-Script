@@ -2,6 +2,20 @@ import { test, expect } from '@playwright/test';
 
 test('Test Case 3 - Login User with incorrect email and password', async ({ page }) => {
 
+    await page.route('**/*', route => {
+    const url = route.request().url();
+
+    if (
+        url.includes('googleads') ||
+        url.includes('doubleclick') ||
+        url.includes('googlesyndication') ||
+        url.includes('adservice')
+    ) {
+        route.abort();
+    } else {
+        route.continue();
+    }
+});
     await page.goto("https://automationexercise.com/");
     const home = page.locator("//a[normalize-space()='Home']");
     await expect(home).toBeVisible();

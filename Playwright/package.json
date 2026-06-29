@@ -15,6 +15,7 @@
   "scripts": {
     "test:qa": "cross-env ENV=qa playwright test",
     "test:uat": "cross-env ENV=uat playwright test",
-    "test:prod": "cross-env ENV=prod playwright test"
+    "test:prod": "cross-env ENV=prod playwright test",
+    "test" : "playwright test"
   }
 }
