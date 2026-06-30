@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "strict": true,
+
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
+    "types": ["node", "@playwright/test"],
+
+    "skipLibCheck": true,
+    "sourceMap": true
+  }
+}
